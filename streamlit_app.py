@@ -12,7 +12,7 @@ def plot_location_graph(data):
     return fig
 
 def main():
-    st.title('Logistics Management Dashboard')
+    st.title('IntelliTrack')
 
     # Read the supply chain data from the CSV file
     file_path = 'Training_Database.csv'  # Replace with the path to your CSV file
