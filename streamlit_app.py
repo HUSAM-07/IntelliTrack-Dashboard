@@ -19,12 +19,12 @@ def main():
     data = read_supply_chain_data(file_path)
 
     # Display location tracking graph
-    st.header('Location Tracking')
+    st.header('Order Back Tracking Graph')
     fig = plot_location_graph(data)
     st.plotly_chart(fig)
 
     # Display detailed dashboard with pagination and filtering
-    st.header('Detailed Dashboard')
+    st.header('Filters')
 
     # Set the number of rows to display per page
     rows_per_page = 10
